@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "rust-wasm-addon",
+  "version": "1.0.2",
+  "description": "Printing hello world ¯\\_ツ_/¯",
+  "icons": {
+    "64": "icons/rust.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "rust-wasm-addon",
+    "default_popup": "index.html"
+  }
+}
